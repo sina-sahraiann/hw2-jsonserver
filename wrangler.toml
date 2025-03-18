@@ -1,6 +1,0 @@
-name = "json-server-api"
-main = "index.js"
-compatibility_date = "2024-01-01"
-
-[vars]
-PORT = "8080"

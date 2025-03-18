@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,8 +22,5 @@
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.1"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
   }
 }
