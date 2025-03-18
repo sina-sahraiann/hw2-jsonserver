@@ -27,8 +27,9 @@ async function handleRequest(request) {
          end: (body) => {
             resolve(new Response(body, {
                headers: { 'Content-Type': 'application/json' }
-            }));
+            })) ;
          }
       });
    });
 }
+
